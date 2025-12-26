@@ -1,0 +1,52 @@
+# Ignore build artifacts
+# Keil/MDK build outputs
+MDK-ARM/demo2/*.axf
+MDK-ARM/demo2/*.hex
+MDK-ARM/demo2/*.bin
+MDK-ARM/demo2/*.map
+MDK-ARM/demo2/*.lnp
+MDK-ARM/demo2/*.o
+MDK-ARM/demo2/*.d
+MDK-ARM/demo2/*.crf
+MDK-ARM/demo2/*.dep
+MDK-ARM/demo2/*.sct
+MDK-ARM/demo2/*.htm
+MDK-ARM/demo2/*.log
+
+# Object files and general build artifacts
+**/*.o
+**/*.d
+**/*.axf
+**/*.hex
+**/*.bin
+**/*.map
+**/*.lnp
+**/*.crf
+
+# Keil project user/workspace files
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+
+# IDE / OS files
+.vscode/
+.idea/
+*.suo
+*.user
+*.ncb
+*.log
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Build dirs
+build/
+Build/
+bin/
+obj/
+
+# Ignore local secrets
+*.env
+
+# Keep README, LICENSE, source files
